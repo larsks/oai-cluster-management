@@ -1,6 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+  - ../../base/clusterrolebindings/moc-nfs-democratic-csi-controller-rb
+  - ../../base/clusterrolebindings/moc-nfs-democratic-csi-node-rb
   - ../../base/clusterrolebindings/openshift-gitops-openshift-gitops-argocd-application-controller-admin
+  - ../../base/clusterroles/moc-nfs-democratic-csi-controller-cr
+  - ../../base/clusterroles/moc-nfs-democratic-csi-node-cr
+  - ../../base/csidrivers/org.democratic-csi.nfs
   - ../../base/namespaces/oai-demo
+  - ../../base/storageclasses/moc-nfs-csi
   - clusterversion.yml
