@@ -7,5 +7,5 @@ spec:
   clusterID: 89f641af-27a7-4f76-a334-a57f04632a8d
   desiredUpdate:
     image: >-
-      quay.io/openshift-release-dev/ocp-release@sha256:dd75546170e65d7d17130de10a6ffeb425f960399640632cbc8426b9da338458
-    version: 4.7.9
+      quay.io/openshift-release-dev/ocp-release@sha256:24f0bcf67474e06ceb1091fc63bddd6010e1d13f5fe5604962a4579ee98b8e22
+    version: 4.7.10
